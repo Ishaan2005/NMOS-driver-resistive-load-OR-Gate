@@ -30,11 +30,15 @@ The design was verified through schematic, layout, and transient simulations to 
 ### Layout and Schematic
 
 **Layout built in Microwind**  
-![Layout built in Microwind](mskfile.png)
+![Layout built in Microwind](layout.png)
 
 **Schematic prepared in Cadence Virtuoso**  
 ![Schematic Prepared in Cadence Virtuoso](mskvirtuoso.png)
 
+
+**Working waveforms
+![Waveforms in Microwind](Working.png)
+Delay is'nt 2ns yet, but Working on it 
 ---
 
 ### Future Work
