@@ -2,22 +2,22 @@
 
 Designed and simulated a **two-input OR gate** using a **resistive-load NMOS architecture** in **Cadence Virtuoso** and **Microwind**.
 
-## 📘 Project Overview
+## Project Overview
 This project demonstrates the working of an OR logic gate implemented using NMOS transistors with a resistive load.  
 The design was verified through schematic, layout, and transient simulations to evaluate propagation delay and logic behavior.
 
-### 🧩 Key Features
+### Key Features
 - Implemented using **resistive-load NMOS configuration**
 - Simulated at **90 nm technology node**
 - Achieved propagation delay ≈ **2 ns**
 - Tools used: **Cadence Virtuoso**, **Microwind**
 
-## 🧠 Circuit Details
+## Circuit Details
 - Two NMOS transistors act as pull-down devices (series driver configuration)
 - A resistive load provides pull-up to VDD
 - Output verified using transient and DC transfer simulations
 
-## 📊 Results
+## Results
 | Parameter | Value |
 |------------|--------|
 | Supply Voltage (VDD) | 1.2 V |
@@ -27,7 +27,7 @@ The design was verified through schematic, layout, and transient simulations to 
 
 ---
 
-### 🖼️ Layout and Schematic
+### Layout and Schematic
 
 **Layout built in Microwind**  
 ![Layout built in Microwind](mskfile.png)
@@ -37,7 +37,7 @@ The design was verified through schematic, layout, and transient simulations to 
 
 ---
 
-### 🔧 Future Work
+### Future Work
 - Optimize R and C values to minimize delay and power  
 - Extend design to NOR and NAND configurations for comparative analysis  
 
